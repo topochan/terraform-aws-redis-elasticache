@@ -6,7 +6,7 @@ A Terraform module to create an Amazon Web Services (AWS) Redis ElastiCache clus
 
 ```javascript
 module "redis_elasticache" {
-  source = "github.com/azavea/terraform-aws-redis-elasticache"
+  source = "github.com/topochan/terraform-aws-redis-elasticache"
 
   vpc_id = "vpc-20f74844"
   vpc_cidr_block = "10.0.0.0/16"
